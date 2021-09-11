@@ -244,8 +244,8 @@ GEM
     friendly_id (5.4.1)
       activerecord (>= 4.0.0)
     geocoder (1.6.3)
-    globalid (0.4.2)
-      activesupport (>= 4.2.0)
+    globalid (0.5.2)
+      activesupport (>= 5.0)
     gravatar_image_tag (1.2.0)
     hairtrigger (0.2.24)
       activerecord (>= 5.0, < 7)
@@ -285,8 +285,8 @@ GEM
     inline_svg (1.7.1)
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
-    invisible_captcha (1.1.0)
-      rails (>= 4.2)
+    invisible_captcha (2.0.0)
+      rails (>= 5.0)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
     jmespath (1.4.0)
@@ -334,7 +334,7 @@ GEM
       nokogiri (~> 1)
       rake
     mini_magick (4.11.0)
-    mini_mime (1.1.0)
+    mini_mime (1.1.1)
     mini_portile2 (2.6.1)
     minitest (5.14.4)
     msgpack (1.4.2)
@@ -343,7 +343,7 @@ GEM
     multipart-post (2.1.1)
     nested_form (0.3.2)
     newrelic_rpm (6.13.0)
-    nio4r (2.5.7)
+    nio4r (2.5.8)
     nokogiri (1.12.4)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
@@ -705,7 +705,7 @@ DEPENDENCIES
   i18n-js
   ims-lti (~> 1.1.8)
   inline_svg
-  invisible_captcha (~> 1.1)
+  invisible_captcha (~> 2.0)
   jbuilder (~> 2.11)
   jquery-rails
   json-schema
